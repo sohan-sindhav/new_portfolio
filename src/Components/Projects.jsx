@@ -3,6 +3,9 @@ import { PROJECTS } from "../constants";
 import { animate, motion } from "framer-motion";
 
 function Projects() {
+  const handleProjectClick = (url) => {
+    window.open(url, "_blank"); // Opens the URL in a new tab
+  };
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2
@@ -21,6 +24,7 @@ function Projects() {
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
+              onClick={() => handleProjectClick(project.link)}
             >
               <img
                 src={project.image}
@@ -35,6 +39,7 @@ function Projects() {
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
+              onClick={() => handleProjectClick(project.link)}
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>

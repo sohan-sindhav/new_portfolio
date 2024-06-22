@@ -42,6 +42,7 @@ export const PROJECTS = [
     description:
       "A fully Functional Typing Speed Calculator with realtime typing tracking capabilities",
     technologies: ["HTML", "CSS", "React", "Node.js"],
+    link: "https://typing-speed-calculator-one.vercel.app/",
   },
 ];
 
