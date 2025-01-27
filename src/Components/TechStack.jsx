@@ -29,7 +29,7 @@ function TechStack() {
         transition={{ duration: 1 }}
         className="text-center text-4xl my-20"
       >
-        Technologies
+        Technologies I worked on
       </motion.h2>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
