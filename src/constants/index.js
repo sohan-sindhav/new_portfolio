@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 
 export const HERO_CONTENT = `Currently exploring Data Structures & Algorithms with C++ to sharpen problem-solving skills. Previously built dynamic web apps with the MERN stack, mastering React, Node.js, Express, and MongoDB.`;
 
-export const ABOUT_TEXT = `I am a dedicated full stack developer with a passion for creating efficient and user-friendly web applications. Skilled in React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB, I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.`;
+export const ABOUT_TEXT = `Hey, I am sohan.\nCurrently exploring Data Structures and Algorithms in C++, strengthening my logic and analytical skills to tackle complex challenges. My journey into tech started with web development, where I gained hands-on experience in learning React, Node.js, Express, and MongoDB`;
 
 export const EXPERIENCES = [
   {
