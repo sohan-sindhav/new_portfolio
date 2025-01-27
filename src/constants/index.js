@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a strong foundation in crafting dynamic and responsive web applications. Although I am a fresher with no formal industry experience, I have diligently honed my skills in the MERN stack, including MongoDB, Express.js, React, and Node.js.`;
+export const HERO_CONTENT = `Currently exploring Data Structures & Algorithms with C++ to sharpen problem-solving skills. Previously built dynamic web apps with the MERN stack, mastering React, Node.js, Express, and MongoDB.`;
 
 export const ABOUT_TEXT = `I am a dedicated full stack developer with a passion for creating efficient and user-friendly web applications. Skilled in React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB, I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.`;
 
