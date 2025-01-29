@@ -5,6 +5,7 @@ import About from "./Components/About";
 import TechStack from "./Components/TechStack";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import Grind from "./Components/Grind";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <div className="container mx-auto px-8 ">
         <Navbar />
         <Hero />
+        <Grind />
         <About />
         <TechStack />
         <Projects />
