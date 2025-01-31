@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 function ProblemSolving() {
   // State to hold the problem count
-  const [leetcodeCount, setLeetcodeCount] = useState(5); // Default value is 50, change it
-  const [gfgCount, setGfgCount] = useState(5); // Default value is 30, change it
-  const [gfgCodingScore, setGfgCodingScore] = useState(9); // Example coding score, change as needed
+  const [leetcodeCount, setLeetcodeCount] = useState(6); // Default value is 50, change it
+  const [gfgCount, setGfgCount] = useState(11); // Default value is 30, change it
+  const [gfgCodingScore, setGfgCodingScore] = useState(19); // Example coding score, change as needed
 
   // LeetCode problem stats (Categorized by difficulty)
   const leetcodeStats = {
-    easy: 3,
+    easy: 4,
     medium: 2,
     hard: 0,
   };
